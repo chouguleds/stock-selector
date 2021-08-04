@@ -1,0 +1,32 @@
+{
+  "name": "stock-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chouguleds/stock-selector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chouguleds/stock-selector/issues"
+  },
+  "homepage": "https://github.com/chouguleds/stock-selector#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "0.16.2",
+    "bluebird": "3.5.1",
+    "co": "4.6.0",
+    "fast-csv": "^2.4.1",
+    "lodash": "4.17.4",
+    "nodemailer": "^4.4.1",
+    "querystring": "0.2.0",
+    "tabletojson": "0.6.0",
+    "x-ray": "2.3.2"
+  },
+  "devDependencies": {}
+}
